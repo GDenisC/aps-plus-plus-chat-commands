@@ -86,7 +86,7 @@ class Arguments {
 		return e;
 	}
 
-	slice(a = 0, b = this.args.length - 1) {
+	slice(a = 0, b = this.args.length) {
 		return this.args.slice(a, b).join(' ');
 	}
 
